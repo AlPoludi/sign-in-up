@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация / войти</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Регистрация</h1>
+			<span>введите данные для регистрации</span>
+			<input type="text" placeholder="Название компании" />
+			<input type="phone" placeholder="Телефон" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Пароль" />
+			<button>Зарегистрироваться</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Авторизация</h1>
+			<span>введите данные для авторизации</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Пароль" />
+			<a href="#">Забыли пароль?</a>
+			<button>Войти</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Добро пожаловать!</h1>
+				<p>Чтобы продолжить работу с нами, пожалуйста войдите, используя свои личные данные</p>
+				<button class="ghost" id="signIn">Войти</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Приветствуем!</h1>
+				<p>Введите свои личные данные и начните работу вместе с BotAbormot</p>
+				<button class="ghost" id="signUp">Зарегистрироваться</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script  src="./script.js"></script>
+
+</body>
+</html>
